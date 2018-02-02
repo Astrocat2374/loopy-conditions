@@ -7,6 +7,18 @@
  * @return { Number }
  */
 
+function greaterNumber (a, b){
+	if(a > b){
+		return a;
+	}else{
+		return b;
+	}
+}
+
+var a = 1;
+var b = 2;
+
+console.log(greaterNumber(a, b));
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -18,6 +30,17 @@
  * @return { String }
  */
 
+function stringOfNumbers (n){
+	var numbers = 0;
+	for (var i = 0; i < n; i++) {
+		var numbers = numbers + i;
+	}
+	return numbers;
+}
+
+var n = 10;
+
+console.log(stringOfNumbers(n))
 
 /**
  * Create a function called 'sumOfArray'.
@@ -27,6 +50,15 @@
  * @param  { array } arr
  * @return { Number }
  */
+
+
+/*
+function sumOfArray (arr[]){
+	for (i = Things.length - 1; i >= 0; i--) {
+		Things[i]
+	}
+}
+*/
 
 
 /**
